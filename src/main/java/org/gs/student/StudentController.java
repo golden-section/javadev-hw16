@@ -10,6 +10,7 @@ import org.springframework.web.servlet.view.RedirectView;
 @RequestMapping(value = "/student")
 @AllArgsConstructor
 public class StudentController {
+
     private final StudentService studentService;
 
     @GetMapping(value = "/list")

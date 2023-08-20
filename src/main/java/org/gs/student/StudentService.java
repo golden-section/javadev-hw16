@@ -11,6 +11,7 @@ import java.util.List;
 @AllArgsConstructor
 @Service
 public class StudentService {
+
     @Autowired StudentRepository studentRepository;
 
     public List<Student> listAll() {
